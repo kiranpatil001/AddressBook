@@ -93,7 +93,7 @@ public class ContactForm extends FormLayout {
 
     public void cancel(Button.ClickEvent event) {
         // Place to call business logic.
-        Notification.show("Cancelled", Type.TRAY_NOTIFICATION);
+        Notification.show("Cancelled added", Type.TRAY_NOTIFICATION);
         getUI().contactList.select(null);
     }
 
